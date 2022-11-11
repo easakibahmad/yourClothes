@@ -97,3 +97,92 @@ body {
 }
 
 /* navbar style ended */
+
+/* home part style started */
+.home {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+
+.home-top {
+    border-top: 1px solid rgb(236, 35, 169);
+}
+
+.home-top img {
+    width: 100%;
+}
+
+.home-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 7px 10px;
+    column-gap: 10px;
+}
+
+.men-div,
+.women-div {
+    position: relative;
+}
+
+.men-text,
+.women-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 80px;
+    color: rgb(236, 35, 169);
+    font-weight: bold;
+}
+
+.home-middle img {
+    height: 100%;
+    width: 100%;
+}
+
+.home-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0px 10px 7px;
+}
+
+.home-bottom img {
+    width: 100%;
+}
+
+.home-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-btn-div button {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: rgb(236, 35, 169);
+}
+
+.home-btn-div button:hover {
+    color: rgb(236, 35, 169);
+    background-color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    .men-text,
+    .women-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .men-text,
+    .women-text {
+        font-size: 30px;
+    }
+}
+
+/* home part style ended */
