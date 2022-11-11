@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* products nav style started */
+.products-nav {
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    padding: 20px 30px;
+    border-top: 1px solid rgb(236, 35, 169);
+}
+
+.products-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.products-nav a:hover {
+    color: blue;
+}
+
+/* products nav style ended */
+
+/* products part style started */
+.men-home-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.shoes-div,
+.pants-div,
+.jacket-div,
+.sweater-div,
+.hoodie-div,
+.blazer-div {
+    position: relative;
+    padding: 5px;
+}
+
+.sweater-text,
+.jacket-text,
+.shoes-text,
+.pants-text,
+.hoodie-text,
+.blazer-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 30px;
+    color: rgb(236, 35, 169);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .sweater-text,
+    .jacket-text,
+    .shoes-text,
+    .pants-text,
+    .hoodie-text,
+    .blazer-text {
+        font-size: 18px;
+    }
+
+    .shoes-div,
+    .pants-div,
+    .jacket-div,
+    .sweater-div,
+    .hoodie-div,
+    .blazer-div {
+        padding: 2px;
+    }
+}
+
+/* products part style ended */

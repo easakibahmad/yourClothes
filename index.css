@@ -37,10 +37,18 @@ body {
     justify-content: center;
 }
 
+.nav-center a {
+    text-decoration: none;
+}
+
 .nav-text {
     font-size: 30px;
     font-weight: bold;
     color: rgb(236, 35, 169);
+}
+
+.nav-text:hover {
+    color: white;
 }
 
 .nav-right {
@@ -101,7 +109,7 @@ body {
 /* home part style started */
 .home {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .home-top {
@@ -200,7 +208,7 @@ body {
 /* footer style started */
 footer {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     padding: 30px 20px 10px;
     background-color: black;
