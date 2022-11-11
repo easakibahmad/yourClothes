@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar style started */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 60px;
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    column-gap: 30px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-left a:hover {
+    color: cadetblue;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(236, 35, 169);
+}
+
+.nav-right {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+    color: cadetblue;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 10px 40px;
+    }
+
+    .nav-text {
+        font-size: 24px;
+    }
+
+    .nav-icon {
+        font-size: 16px;
+    }
+
+    .nav-left {
+        font-size: 16px;
+        column-gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .nav-text {
+        font-size: 20px;
+    }
+
+    .nav-icon {
+        font-size: 14px;
+    }
+
+    .nav-left {
+        font-size: 14px;
+        column-gap: 10px;
+    }
+}
+
+/* navbar style ended */
