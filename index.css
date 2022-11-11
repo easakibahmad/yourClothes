@@ -175,6 +175,11 @@ body {
     .women-text {
         font-size: 40px;
     }
+
+    .home-btn-div button {
+        padding: 3px 7px;
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -183,6 +188,62 @@ body {
     .women-text {
         font-size: 30px;
     }
+
+    .home-btn-div button {
+        padding: 3px 7px;
+        font-size: 14px;
+    }
 }
 
 /* home part style ended */
+
+/* footer style started */
+footer {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    align-items: center;
+    padding: 30px 20px 10px;
+    background-color: black;
+    color: white;
+    row-gap: 20px;
+}
+
+.footer-top,
+.footer-mid,
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-top {
+    color: rgb(236, 35, 169);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer-mid {
+    column-gap: 20px;
+}
+
+.footer-bottom {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .footer-top {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer-top {
+        font-size: 18px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+}
+
+/* footer style ended */
