@@ -59,8 +59,17 @@ img {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 900px) {
+    .men-home-page {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 600px) {
 
+    .men-home-page {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .sweater-text,
     .jacket-text,

@@ -60,8 +60,18 @@ img {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 900px) {
+    .women-home-page {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 @media screen and (max-width: 600px) {
 
+    .women-home-page {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .trench-text,
     .bottom-dress-text,

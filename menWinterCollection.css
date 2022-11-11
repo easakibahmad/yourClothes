@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* main part style started */
+.menCollection {
+    padding: 20px 40px 10px;
+}
+
+.text-collection {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 10px 50px;
+}
+
+.winterProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid rgb(236, 35, 169);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#footerText {
+    color: rgb(236, 35, 169);
+}
+
+span {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    padding: 0px auto;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .winterProducts {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .card {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .winterProducts {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+/* main part style ended */
