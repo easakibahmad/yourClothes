@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* discount style started */
+.text-discount {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 10px 10px;
+}
+
+.discount-main {
+    width: 100%;
+}
+
+
+
+.cards-discount {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+    padding: 30px 40px;
+}
+
+.discount-card {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(236, 35, 169);
+
+}
+
+.discount-card img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text-two {
+    font-size: 20px;
+}
+
+.card-bottom-div {
+    padding: 0px 10px 5px;
+}
+
+p {
+    color: red;
+    font-size: 24px;
+    margin: 0px;
+    padding: 4px 0px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .cards-discount {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+    .discount-card img {
+        height: 120px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+    .cards-discount {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+    }
+
+    .discount-card img {
+        height: 110px;
+    }
+}
+
+/* discount style ended */
