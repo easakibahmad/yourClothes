@@ -1,3 +1,6 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Heebo&family=Indie+Flower&family=Lobster&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -44,7 +47,9 @@ body {
 .nav-text {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(236, 35, 169);
+    color: rgb(35, 236, 219);
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
 }
 
 .nav-text:hover {
