@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+.img-top-div,
+.img-mid-div,
+.img-bottom-div {
+    width: 60%;
+    margin: 0px auto;
+}
