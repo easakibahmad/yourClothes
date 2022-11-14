@@ -59,6 +59,18 @@ body {
 .nav-right {
     display: flex;
     justify-content: end;
+    column-gap: 7px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-right a:hover {
+    color: blue;
 }
 
 .nav-icon {
@@ -87,6 +99,10 @@ body {
         font-size: 16px;
         column-gap: 10px;
     }
+
+    .nav-right a {
+        font-size: 15px;
+    }
 }
 
 
@@ -106,6 +122,11 @@ body {
     .nav-left {
         font-size: 14px;
         column-gap: 10px;
+    }
+
+    .nav-right a {
+        font-size: 12px;
+        column-gap: 4px;
     }
 }
 
